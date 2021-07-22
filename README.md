@@ -15,7 +15,9 @@ $ vi vars-az2.yml
 ``` 
 
 ## 02. generate certificate
-> Do not run for each server, run only the first time
+> Do not run for each server, run only the first time. <br>
+CAUTION ::: Copy and use the generated certificate
+
 ``` 
 $ source generate_ca.sh
 $ ll creds
