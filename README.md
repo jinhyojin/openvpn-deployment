@@ -14,6 +14,20 @@ $ vi vars-az1.yml
 $ vi vars-az2.yml
 ``` 
 
+> Declare yml for IaaS in deploy-vpn-az1.sh
+``` 
+$ vi deploy-vpn-az1.sh
+$ vi deploy-vpn-az2.sh
+
+ex)
+-o operations/init-aws.yml \
+-o operations/init-openstack.yml \
+-o operations/init-vsphere.yml \
+
+``` 
+
+
+
 ## 02. generate certificate
 > Do not run for each server, run only the first time. <br>
 CAUTION ::: Copy and use the generated certificate
