@@ -52,8 +52,8 @@ $ ssh openvpn@<openvpn-az2-ip> -i openvpn-az2.key
 ```
 
 ## 05. check openvpn connection
-> Check the connection openvpn information on each server
-> If there are tun0 and tun2 in the network interface, they are connected 
+> Check the connection openvpn information on each server. 
+If there are tun0 and tun2 in the network interface, they are connected.
 ```
 $ ssh openvpn@<openvpn-az1-ip> -i openvpn-az1.key 
 or 
