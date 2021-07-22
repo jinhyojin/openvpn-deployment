@@ -65,7 +65,8 @@ $ ping <remote_network_ip>
 ``` 
 
 ## 06. Add static routing (optional)
-> Add static routing to use client tunnel
+> Add static routing to use client tunnel. <br>
+If IaaS does not support it, set static routing through the command below in the vm.
 ```
 $ sudo ip route add <remote_network_cidr_block> via <lan_ip>
 ex> sudo ip route add 20.0.20.0/24 via 10.0.10.100
