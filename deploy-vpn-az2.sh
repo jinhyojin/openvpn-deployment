@@ -4,7 +4,7 @@
 bosh create-env openvpn.yml \
   --vars-store creds/vpn-deploy-az2.yml \
   --state openvpn-state-az2.json \
-  -o operations/init-vsphere.yml \
+  -o operations/init-openstack.yml \
   -o operations/with-pushed-routes.yml \
   -o operations/with-ssh.yml \
   -o operations/vpn-server-ops.yml \
