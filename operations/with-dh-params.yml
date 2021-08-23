@@ -1,3 +1,0 @@
-- path: /instance_groups/name=openvpn/jobs/name=openvpn/properties/dh_pem
-  type: replace
-  value: ((dh_params))
