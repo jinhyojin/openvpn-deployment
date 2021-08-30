@@ -3,8 +3,8 @@
 
 ## 00. multi-cpi openvpn configuration 
 ```
-openvpn az-1 : 1 server, 1 client
-openvpn az-2 : 1 server, 1 client
+openvpn az-1 : 1 server + 1 client (1vm)
+openvpn az-2 : 1 server + 1 client (1vm)
 ```
 
 ## 01. update openvpn info

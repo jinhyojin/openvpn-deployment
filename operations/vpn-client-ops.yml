@@ -41,10 +41,3 @@
   type: replace
   value: -d ((remote_network_cidr_block)) -j MASQUERADE -m comment --comment "local -> remote"
 
-
-# route_table_id and remote_network_cidr_block (10.1.0.0/16)
-#- path: /resource_pools/0/cloud_properties/advertised_routes?/-
-#  type: replace
-#  value:
-#    table_id: ((route_table_id))
-#    destination: ((remote_network_cidr_block))
